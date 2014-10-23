@@ -9,13 +9,24 @@ Version 1.0, 22/10/2014
 ==================================================================
 ==================================================================
 
-DATA METRICS
-================
+DATA METRICS AND UNITS
+======================
 The har_summary.txt dataset comprises 180 observations of the average mean and standard deviation results of 79 variables
 relating to 6 activities undertaken by 30 subjects.
 
 Column headers are included in the dataset.
 Row numbers are not included in the dataset.
+
+- 'subject': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+- 'activity' : Each row identifies an activity. The range is WALKING, WALKING_UPSTAIRS
+, WALKING_DOWNSTAIRS, SITTING
+, STANDING, LAYING
+.
+
+- 'time...': Each variable prefixed with 'time' contains a time domain signal
+
+- 'frequency...': Each variable prefixed with 'frequency' contains a frequency domain signal
 
 DATA ORIGIN
 ================
